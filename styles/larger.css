@@ -7,6 +7,10 @@
         column-gap: 40px;
     }
 
+    h1{
+        font-size:200%;
+    }
+
     h2 {
         flex-basis:100%;
     }
@@ -21,6 +25,9 @@
         margin-right: 50px;
 
         
+    }
+    #options {
+        display: none;
     }
 
 
