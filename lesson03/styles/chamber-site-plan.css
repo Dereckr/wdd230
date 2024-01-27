@@ -3,19 +3,45 @@ body{
     text-align: center;
 }
 
+main{
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+}
 
+section {   
+    grid-column: 2/3;
+}
 
 h1, h2, h3 {
     font-family: "Nixi One", "Times New Roman", system-ui;
 }
 
+h2 {
+    background-color: #F75C03;
+    padding: 20px;
+}
+
 header{
     background-color: #386641;
+    padding: 30px;
+    color: whitesmoke;
 }
 
 .colors a{
     display: block;
     padding-bottom: 10px;
-    
 }
 
+.wireframe h3 {
+    background-color: #654F6F;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.wireframe img{
+    max-width: 1000px;
+}
+
+ol{
+    list-style: none;
+}
