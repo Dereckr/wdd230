@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
 
 #options {
     display: none;
@@ -11,7 +11,24 @@
 
 .pages a {
     display: block;
-    flex: 1 1 100%;
+    flex: auto;
+}
+main{
+    grid-template-columns: 10% 1fr 1fr 10%;
+
+}
+
+.events {
+    grid-column: 2/3;
+    margin-right: 10px;
+}
+
+.weather {
+    grid-column: 3/4;
+    margin-left: 10px;
+}
+.spotlights{
+    grid-column: 2/4;
 }
 
 }

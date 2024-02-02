@@ -65,6 +65,7 @@ footer{
 
 .pages a{
     display:none;
+    text-decoration: none;
 }
 
 .open a{
@@ -78,8 +79,16 @@ footer{
 	color: #fff;
 }
 
+.pages a:link{
+    color: whitesmoke;
+}
+
+.pages a:visited{
+    color:#F75C03
+}
 .pages a:hover {
 	background-color: whitesmoke;
 	color: #333;
 	font-weight: 700;
 }
+
