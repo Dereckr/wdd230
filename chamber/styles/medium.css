@@ -1,0 +1,17 @@
+
+@media screen and (min-width: 800px) {
+
+#options {
+    display: none;
+}
+
+.pages {
+    flex-direction: row;
+}
+
+.pages a {
+    display: block;
+    flex: 1 1 100%;
+}
+
+}

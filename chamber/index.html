@@ -10,6 +10,9 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="">
     <meta property="og:url" content="https://dereckr.github.io/wdd230/chamber/index.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Nixie+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -18,9 +21,54 @@
 </head>
 <body>
     <header>
-
+        <img>
+        <h1>La Paz Chamber of Commerce</h1>
+        <button id="options" aria-label="options button"></button>
+        <nav class="pages">
+            <a href="#">Home</a>
+            <a href="#">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+        </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <div id="hero">
+        <div id="hero-box">
+            <img src="images/La-Paz-resize.jpg">
+        </div>
+        
+        <button id="join" aria-label="join button">Join the Chamber</button>
+    </div>
+    <main>
+        <section class="events">
+            <h2>Events</h2>
+            <p>Farewell Party</p>
+            <p>7:00 pm</p>
+
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <p>La Paz, Bolivia</p>
+            <p>15 C - Sunshine</p>
+
+        </section>
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div>
+                <h3>Construction Fairies</h3>
+                <p>"Just have to wish it"</p>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Dereck Romero Moscoso</p>
+        <p>La Paz Chamber of Commerce - Project WDD 230</p>
+        <p>© <span id="currentyear">
+        <p>Last Modification: <span id="lastmodified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+   
 </body>
 </html>

@@ -1,0 +1,85 @@
+body{
+    font-family: "Fira Sans", Helvetica, sans-serif;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+}
+
+section {   
+    grid-column: 2/3;
+    margin: 10px 0;
+}
+
+.events, .weather {
+    border: 1px black solid;
+}
+
+.spotlights div{
+    border: 1px black solid;
+}
+
+
+
+h1, h2, h3 {
+    font-family: "Nixi One", "Times New Roman", system-ui;
+}
+
+h2 {
+    background-color: #F75C03;
+    padding: 20px;
+}
+
+header{
+    background-color: #386641;
+    padding: 30px;
+    color: whitesmoke;
+}
+
+footer{
+    background-color: #654f6f;
+    padding: 20px;
+    color: whitesmoke;
+
+}
+
+#options{
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;  
+}
+
+#options::before {
+	content: "☰";
+}
+
+#options.open::before {
+	content: "❌";
+}
+
+.pages a{
+    display:none;
+}
+
+.open a{
+    display: block;
+}
+
+.pages {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	color: #fff;
+}
+
+.pages a:hover {
+	background-color: whitesmoke;
+	color: #333;
+	font-weight: 700;
+}

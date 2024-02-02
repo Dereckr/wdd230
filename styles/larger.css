@@ -30,6 +30,11 @@
         display: none;
     }
 
+    .pages a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
 
 
  
