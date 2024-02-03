@@ -27,6 +27,9 @@ section {
     padding: 10px;
 }
 
+#hero-box img{
+    width: 100vw;
+}
 
 
 h1, h2, h3 {
