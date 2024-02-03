@@ -15,10 +15,16 @@ section {
 
 .events, .weather {
     border: 1px black solid;
+    
+}
+
+.events p, .weather p{
+    padding-left: 10px;
 }
 
 .spotlights div{
     border: 1px black solid;
+    padding: 10px;
 }
 
 
