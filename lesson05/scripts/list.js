@@ -5,7 +5,7 @@ const list = document .querySelector("#list");
 button.addEventListener("click", ()=>{
     if (input.value != ""){
     const myChap = input.value;
-    
+    input.value = "";
 
     const li = document.createElement("li");
     const deleteButton = document.createElement("button");
@@ -17,16 +17,11 @@ button.addEventListener("click", ()=>{
     deleteButton.addEventListener("click", ()=>{
         li.remove();
         input.focus();
-        input.value = "";
+        
     })
-
-
-    input.focus();
-
-
-
-
-
+    
 }
+input.focus();
+
 }
 )
