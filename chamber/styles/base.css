@@ -101,3 +101,15 @@ footer{
 	font-weight: 700;
 }
 
+#mode{
+    position:absolute;
+    top: 1rem;
+    left: 2rem;
+    font-size:2rem;
+    cursor: pointer;
+}
+
+#mode img
+{
+    width: 30px;
+}
