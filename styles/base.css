@@ -28,7 +28,7 @@ h1{
     font-size:150%;
 }
 
-img {
+.photo {
     height: 200px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -137,5 +137,21 @@ p {
 iframe{
     grid-row: 4/5;
     grid-column: 2/3;
-    
+}
+
+.hero {
+    position: relative;
+}
+
+.hero div{
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: #333;
+}
+
+.temple{
+    position: absolute;
+    top:1rem;
+    left:2rem;
 }
