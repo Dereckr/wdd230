@@ -49,7 +49,7 @@ nav a{
 main{
     display: grid;
     grid-template-columns: 50px 1fr 50px;
-    grid-template-rows: 2fr 100px 1fr 1fr 1fr;
+    grid-template-rows: 1fr 100px 1fr 1fr 1fr;
     text-align: center;
 }
 
@@ -143,7 +143,7 @@ iframe{
     grid-column: 2/3;
 }
 
-.hero div{
+.hero p{
     color: whitesmoke;
     font-size: 2rem;
     padding: 10px;
