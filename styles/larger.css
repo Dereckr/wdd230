@@ -5,7 +5,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         column-gap: 40px;
-        
+
     }
 
     h1{
@@ -35,6 +35,10 @@
         display: block;
   
     }
+
+    .hero p{
+        
+        font-size: 2rem;
 
 
 
