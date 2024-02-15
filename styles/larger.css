@@ -5,6 +5,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         column-gap: 40px;
+        row-gap: 10px;
 
     }
 
@@ -17,16 +18,24 @@
     }
 
     .card{
-        flex-grow:6;
+        
         margin-left: 50px;
+        flex-basis:50%;
     }
 
     .info {
-        flex-grow:4;
-        margin-right: 50px;
-
+        
+        margin-right: 50px;  
+        flex-basis:30%;     
+    }
+    
+    iframe{
+        flex-basis: 50%;
         
     }
+    
+
+
     #options {
         display: none;
     }

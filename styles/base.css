@@ -139,6 +139,8 @@ p {
 iframe{
     grid-row: 5/6;
     grid-column: 2/3;
+    width: 100%;
+    padding: 10px 0;
 }
 
 .hero {
