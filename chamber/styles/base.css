@@ -29,8 +29,13 @@ section {
 
 #hero-box img{
     width: 100vw;
+    height: auto;
 }
 
+.hero img{
+    width: 100%;
+    height: auto;
+}
 
 h1, h2, h3 {
     font-family: "Nixi One", "Times New Roman", system-ui;
