@@ -12,6 +12,7 @@
 .pages a {
     display: block;
     flex: auto;
+    padding-top: 20px;
 }
 main{
     grid-template-columns: 10% 1fr 1fr 10%;
