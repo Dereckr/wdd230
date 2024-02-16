@@ -118,3 +118,14 @@ footer{
 {
     width: 30px;
 }
+
+.logo {
+    width: 80px;
+    padding-left: 5rem;
+}
+
+h1{
+    display: inline;
+    font-size: 1.8em;
+    justify-content: center;
+}
