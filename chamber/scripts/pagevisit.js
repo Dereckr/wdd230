@@ -1,13 +1,30 @@
-const visitsDisplay = document.querySelector(".visits");
+const msToDays = 84600000;
+const theDateToday = new Date();
 
-let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
+const visitsDisplay = document.querySelector(".latest-visit");
 
-if(numVisits !== 0) {
-    visitsDisplay.textContent = numVisits;
-} else{
-    visitsDisplay.textContent = "This is your first visit. Welcome";
+let lastVisit = new Date(window.localStorage.getItem("lastVisit")) || 0;
+
+let daysDifference = Math.round((lastVisit.getTime() - Date.now())/msToDays);
+console.log(daysDifference);
+
+
+
+if(daysDifference == 0) {
+    visitsDisplay.textContent = "Welcome! Let us know if you have any questions.";
+
+} else if(daysDifference == 1){
+    visitsDisplay.textContent = "You last visited 1 day ago";
+} 
+
+else{
+    visitsDisplay.textContent = `You last visited ${daysDifference} days ago`;
 }
 
-numVisits++;
 
-localStorage.setItem("numVisits-ls", numVisits);
+
+localStorage.setItem("lastVisit", lastVisit);
+
+
+
+
