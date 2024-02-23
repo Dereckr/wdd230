@@ -32,5 +32,23 @@ main{
     grid-column: 2/4;
 }
 
+.sidebar{
+    grid-column: 2/3;
+    padding-right: 10px;  
+}
+
+.lapaz {
+    grid-column: 3/4;
+}
+
+
+
+.lapaz img:hover{
+    box-shadow: 0 0 20px #F75C03;
+}
+
+.sidebar section, .sidebar iframe{
+    border: 1px solid black;
+}
 
 }

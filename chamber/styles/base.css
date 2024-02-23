@@ -8,6 +8,14 @@ main{
     grid-template-columns: 15% 1fr 15%;
 }
 
+.sidebar{
+    grid-column: 2/3;
+}
+
+.lapaz{
+    grid-column: 2/3;
+}
+
 section {   
     grid-column: 2/3;
     margin: 10px 0;
@@ -18,7 +26,7 @@ section {
     
 }
 
-.events p, .weather p{
+p{
     padding-left: 10px;
 }
 
@@ -141,6 +149,9 @@ footer{
 h1 {
     display: inline;
     font-size: 2rem;
-    justify-content: center;
-    
+    justify-content: center;   
+}
+
+.lapaz img{
+    margin: 10px;
 }
