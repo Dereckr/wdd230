@@ -5,8 +5,10 @@ const visitsDisplay = document.querySelector(".latest-visit");
 
 let lastVisit = new Date(window.localStorage.getItem("lastVisit")) || 0;
 
-let daysDifference = Math.round((lastVisit.getTime() - Date.now())/msToDays);
+let daysDifference = Math.round((Date.now()-lastVisit.getTime())/msToDays);
 console.log(daysDifference);
+console.log(lastVisit);
+console.log(Date.now());
 
 
 

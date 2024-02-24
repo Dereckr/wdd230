@@ -6,9 +6,10 @@
     
     .lapaz img:hover{
         box-shadow: 0 0 40px #F75C03;
-        .lapaz img{
-            margin: 20px;
-        }
+    }
+
+    .lapaz img{
+        margin: 20px;
     }
 
     .lapaz img{
