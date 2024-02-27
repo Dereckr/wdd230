@@ -1,0 +1,31 @@
+caption{
+    caption-side: bottom;
+    padding: 10px;
+}
+
+table{
+     margin: 10px auto; 
+     border: 1px solid black;
+     border-collapse: collapse;
+}
+
+th, td {
+    padding:8px 15px;
+    border: 1px solid black;
+}
+
+td{
+    text-align: center;
+}
+
+tbody tr:nth-child(odd){
+    background-color: beige;
+}
+
+thead th:first-child {
+    background-color: rosybrown;
+    border-bottom: 0px 
+}
+
+
+
