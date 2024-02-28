@@ -58,6 +58,79 @@ main {
     padding: 0 2%;
     min-height: 20rem;
 }
+/*----------- FORM STYLING--------------*/
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding : .5rem 2%;
+}
+
+form legend{
+    color: #445ba9;
+    margin: 0 1rem;
+}
+
+form label{
+    display: block;
+    padding-top:1rem;
+    color: #9c2c13;
+    font-size: .9rem;
+
+}
+
+form div{
+    
+    padding-top:1rem;
+    color: #445ba9;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form input[type="url"],
+form input[type="date"],
+form select,
+form input[type="number"]
+
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding:.75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+form input[type="radio"],
+form input[type="checkbox"]{
+    margin-right: 6px;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .8rem;
+    margin: -1rem 2% 2rem 2%;
+    width: 96%;
+    max-width: 400px;
+    box-shadow: 1px 1px 4px #999;
+}
+
+form input:required{
+    border-right:red solid 8px;
+}
+
+form label.top input:required:valid{
+    border-right: green solid 8px;
+}
+
+
 
 
 /*----------- FOOTER --------------*/
