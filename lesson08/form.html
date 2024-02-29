@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dereck Romero - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development. Dereck Romero Moscoso. Forms ">
+    <meta name="author" content="Dereck Romero Moscoso">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <label>First Name*<input id="username" type="text" name="fname" required></label>
+                <label>Password*<input id="password" type="password" name="password" required placeholder="At least 8 characters. Only alphanumeric"  pattern="[A-Za-z0-9]{8,}"></label>
+                <label>Repeated Password*<input id="confirmation" type="password" name="confirmation" required pattern="[A-Za-z0-9]{8,}"></label>
+                <label>Email*<input id="email" type="email" name="email" required></label>
+                <label>Page rating<input id="rating" type="range" name="rating"></label>
+            </fieldset>
+            <input type="submit" value="Open my account" class="submitBtn">
+        </form>
+    </main>
+</body>
+</html>
