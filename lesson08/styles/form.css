@@ -76,6 +76,12 @@ footer {
     margin:-1rem 2% 2rem 2%;
 }
 
+form fieldset{
+    margin: 2rem 0;
+    border-radius: 6px;
+    padding : .5rem 2%;
+}
+
 form input:required:invalid{
     border-right:red solid 8px;
 }
