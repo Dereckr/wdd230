@@ -32,8 +32,9 @@
                 <label>Password*<input id="password" type="password" name="password" required placeholder="At least 8 characters. Only alphanumeric"  pattern="[A-Za-z0-9]{8,}"></label>
                 <label>Repeated Password*<input id="confirmation" type="password" name="confirmation" required pattern="[A-Za-z0-9]{8,}"></label>
                 <label>Email*<input id="email" type="email" name="email" required placeholder="email@byui.edu" title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu"></label>
-                <label>Page rating<div id="rangevalue">0</div><input id="rating" type="range" name="rating" min="0" max="10" value="0" step="1" list="rangevalues">
-                    <datalist id="rangevalues">
+                <label>Page rating</label><input id="rating" type="range" name="rating" min="0" max="10" value="0" step="1" list="rangevalues">
+                <div id="rangevalue">0</div>
+                <datalist id="rangevalues">
                         <option value="0">0</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -47,7 +48,7 @@
                         <option value="10">10</option>
 
 
-                    </datalist></label>
+                    </datalist>
             </fieldset>
             <input type="submit" value="Open my account" class="submitBtn">
         </form>
