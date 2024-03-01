@@ -27,7 +27,8 @@
         <form method="get" action="record.html">
             <div id="formmessage"></div>
             <fieldset>
-                <label>First Name*<input id="username" type="text" name="fname" required></label>
+                <legend>Credentials Information</legend>
+                <label>Username*<input id="username" type="text" name="uname" required></label>
                 <label>Password*<input id="password" type="password" name="password" required placeholder="At least 8 characters. Only alphanumeric"  pattern="[A-Za-z0-9]{8,}"></label>
                 <label>Repeated Password*<input id="confirmation" type="password" name="confirmation" required pattern="[A-Za-z0-9]{8,}"></label>
                 <label>Email*<input id="email" type="email" name="email" required placeholder="email@byui.edu" title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu"></label>
