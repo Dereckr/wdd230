@@ -1,3 +1,10 @@
+:root{
+    --backgroundColor: rgb(9, 9, 48);
+    --borderColor: rgb(9, 9, 48);
+    --invalidColor: red;
+}
+
+
 form label{
     display: block;
     padding-top: 1rem;
@@ -14,7 +21,7 @@ form input[type="range"]{
     width: 100%;
     max-width:400px;
     justify-content: center;
-    border:solid 1px rgb(9, 9, 48);
+    border:solid 1px var(--borderColor);
     border-radius: 6px;
     padding:.75rem;
 
@@ -24,12 +31,12 @@ form input[type="range"]{
 	visibility: none;
 	margin: 10px;
 	padding: 0.5rem;
-	color: red;
+	color: var(--invalidColor);
 }
 
 
 header {
-    background-color: rgb(9, 9, 48);
+    background-color: var(--backgroundColor);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -62,14 +69,14 @@ nav a{
 }
 
 footer {
-    background-color: rgb(9, 9, 48);
+    background-color: var(--backgroundColor);
     color: white;
     padding: 10px;
 }
 
 .submitBtn{
     border: none;
-    background-color: rgb(9, 9, 48);
+    background-color: var(--backgroundColor);
     color: whitesmoke;
     border-radius: 1rem;
     padding: .8rem;
@@ -83,7 +90,7 @@ form fieldset{
 }
 
 form input:required:invalid{
-    border-right:red solid 8px;
+    border-right:var(--invalidColor) solid 8px;
 }
 
 form input:required:valid{
