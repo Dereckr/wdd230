@@ -92,6 +92,7 @@ form input:required:valid{
 
 main{
     max-width: 500px;
+    padding:0 2%;
 }
 
 #rangevalue{
