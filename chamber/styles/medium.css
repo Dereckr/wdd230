@@ -54,4 +54,13 @@ main{
     border: 1px solid black;
 }
 
+form{
+    grid-column: 2/3;
+
+}
+
+.membership-features{
+    grid-column: 3/4;
+}
+
 }

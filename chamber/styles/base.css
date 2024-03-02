@@ -1,3 +1,10 @@
+:root{
+    --backgroundColor: rgb(9, 9, 48);
+    --borderColor: rgb(9, 9, 48);
+    --invalidColor: red;
+}
+
+
 body{
     font-family: "Fira Sans", Helvetica, sans-serif;
 
@@ -161,4 +168,73 @@ h1 {
     margin: 10px;
     width: 100%;
     height: auto;
+}
+
+
+form {
+    grid-column: 2/3;
+    padding:0 2%;
+}
+
+.membership-features{
+    grid-column: 2/3;
+    padding : .5rem 5%;
+
+}
+
+form label{
+    display: block;
+    padding-top: 1rem;
+}
+
+form input, form select, form textarea{
+    display: block;
+}
+
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="telephone"],
+#membership,
+#description
+{
+    width: 90%;
+    max-width:400px;
+    justify-content: center;
+    border:solid 1px var(--borderColor);
+    border-radius: 6px;
+    padding:.75rem;
+}
+
+.aplication{
+    
+    max-width: 500px;
+}
+
+form fieldset{
+    margin: 2rem 0;
+    border-radius: 6px;
+    padding : .5rem 2%;
+    width: 100%;
+    max-width: 450px;
+}
+
+form input:required:invalid{
+    border-right:red solid 8px;
+}
+
+form input:required:valid{
+    border-right: green solid 8px;
+}
+
+.joinnow{
+    background-color: #F75C03;
+    padding: 1rem;
+    margin: -1rem 2% 2rem 4% ;
+    border: none;
+    border-radius: 1rem;
+    width: 96%;
+    max-width: 400px;
+
 }

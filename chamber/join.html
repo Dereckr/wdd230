@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Paz Chamber of Commerce Discover</title>
+    <meta name="description" content=" La Paz Chamber of Commerce Home Page ">
+    <meta name="author" content="Dereck Romero Moscoso">
+    <meta property="og:title" content="WDD 230 - Web Frontend Development. Dereck Romero Moscoso. La Paz Chamber of Commerce Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://dereckr.github.io/wdd230/chamber/images/la-paz.jpg">
+    <meta property="og:url" content="https://dereckr.github.io/wdd230/chamber/index.html">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Nixie+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.webp" alt="company's logo">
+        <h1>La Paz Chamber of Commerce</h1>
+        <button id="options" aria-label="options button"></button>
+        <nav class="pages">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="#">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+    <div id="mode">🌛</div>
+    <div id="hero">
+        <div id="hero-box">
+            <picture>
+                <source srcset="images/wdd230-small.webp" media="(max-width: 400px)">
+                <source srcset="images/wdd230-medium.webp" media="(max-width: 960px)">
+                <img src="images/wdd230-large.webp" alt="Web 230" width="1440" height="960">
+            </picture>
+        </div>
+        
+        <button id="join" aria-label="join button">Join the Chamber</button>
+    </div>
+    <main>
+        <form method="get" action="thankyou.html" id="application">
+            <fieldset>
+                <legend>Join Aplication</legend>
+                <label>First Name*<input type="text" required name="fname" id="fname"></label>
+                <label>Last Name*<input type="text" required name="lname" id="lname"></label>
+                <label>Title or position*<input type="text" required name="position" id="position" required pattern="[A-Za-z -]{7,}"></label>
+                <label>Email*<input type="email" required name="email" id="email" placeholder="someone@gmail.com"></label>
+                <label>Mobile Phone Number*<input type="telephone" required name="mobile" id="mobile" placeholder="2234456677"></label>
+                <label>Business/organization's name*<input type="text" required name="organization" id="organization"></label>
+                <label>Select Membership
+                    <select name="membership" id="membership">
+                        <option value="">Please select</option>
+                        <option value="NP">NP Membership</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+                </label>
+                <label>Description<textarea name="description" id="description"></textarea></label>
+                <input type="hidden" name="date" id="date">
+            </fieldset>
+            <input type="submit" value="Join Now" class="joinnow">
+        </form>
+        <div class="membership-features">
+            <h2>Membership options</h2>
+            <section>
+                <h3>Bronze membership</h3>
+                <ul>
+                    <li>Monthly Fee: $4.99</li>
+                    <li>Benefits:
+                        <li>Access to basic features and services.</li>
+                        <li>Limited support.</li>
+                        <li>Occasional discounts on select products and services</li>
+                    </li>
+                    <li>Ideal for individuals or small organizations with minimal needs</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Silver membership</h3>
+                <ul>
+                    <li>Monthly Fee: $9.99</li>
+                    <li>Benefits:
+                        <li>Access to premium features and services.</li>
+                        <li>Priority support with faster response times.</li>
+                        <li>Exclusive content or resources.</li>
+                        <li>10% discount on all products or services.</li>
+                    </li>
+                    <li>Suitable for small businesses or individuals seeking additional support and perks.</li>
+                </ul>
+            </section>  
+            <section>
+                <h3>Gold membership</h3>
+                <ul>
+                    <li>Monthly Fee: $19.99</li>
+                    <li>Benefits:
+                        <li>All features of the Silver Membership.</li>
+                        <li>Enhanced support with dedicated account manager.</li>
+                        <li>Access to advanced tools and resources.</li>
+                        <li>15% discount on all products or services.</li>
+                        <li>Quarterly webinars or workshops.</li>
+                    </li>
+                    <li>Ideal for medium-sized businesses or professionals requiring more comprehensive assistance and resources.
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3>NP membership</h3>
+                <ul>
+                    <li>Monthly Fee: $0</li>
+                    <li>Benefits:
+                        <li>All features of the Gold Membership.</li>
+                        <li>Free access to premium services.</li>
+                        <li>Dedicated support team for non-profits.</li>
+                        <li>Priority consideration for special initiatives or partnerships.</li>
+                        <li>Recognition as a valued supporter of the organization's mission.</li>
+                    </li>
+                    <li>Exclusively available for registered non-profit organizations, providing them with the necessary tools and support to further their charitable endeavors.</li>
+                </ul>
+            </section> 
+        </div>
+    </main>
+    <footer>
+        <p>Dereck Romero Moscoso</p>
+        <p>La Paz Chamber of Commerce - Project WDD 230</p>
+        <p>© <span id="currentyear"></span></p>
+        <p>Last Modification: <span id="lastmodified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    
+
+   
+</body>
+</html>

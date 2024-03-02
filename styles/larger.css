@@ -31,11 +31,8 @@
     
     iframe{
         flex-basis: 50%;
-        
     }
     
-
-
     #options {
         display: none;
     }
@@ -48,6 +45,8 @@
     .hero p{
         font-size: 2rem;
     }
+
+
 
 
  

@@ -122,7 +122,7 @@ form input.submitBtn{
     box-shadow: 1px 1px 4px #999;
 }
 
-form input:required{
+form input:required:invalid{
     border-right:red solid 8px;
 }
 
