@@ -182,6 +182,10 @@ form {
 
 }
 
+.thanks{
+    grid-column: 2/4;
+}
+
 form label{
     display: block;
     padding-top: 1rem;
