@@ -1,0 +1,26 @@
+{
+    "familyName": "Lora",
+    "movedDate": "2020-05-23",
+    "numberOfPeople": 3,
+    "VisitedByBishopric": true,
+    "familyMembersinfo":[
+        {
+            "name":"Jaime",
+            "gender":"male",
+            "birthdate":"1970-08-17"
+        },
+        {
+            "name":"Angelica",
+            "gender":"female",
+            "birthdate":"1974-03-23"
+        },
+        {
+            "name":"Ivan",
+            "gender":"male",
+            "birthdate":"1997-03-03"
+        }
+
+
+    ]
+
+}
