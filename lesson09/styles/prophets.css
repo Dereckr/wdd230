@@ -1,0 +1,35 @@
+#cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+}
+
+main{
+    margin-left: 2rem;
+}
+
+h1{
+    border-bottom: 1px solid #353434;
+    text-shadow: 0 0 15px #777;
+    width: 60%;
+}
+
+img{
+    border: 1px solid #333;
+    width:auto;
+    max-width: 440px;
+}
+
+section{
+    border: 1px solid #353434;
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: rgb(114, 86, 114);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    margin: 0px;
+    font-size: 1.2rem;
+}
