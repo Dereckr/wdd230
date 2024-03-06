@@ -7,4 +7,20 @@ async function getLinks() {
   displayLinks(data.lessons);
 }
 
+const sessions = document.querySelector(".sessions");
+
+const displayLinks = (weeks) => {
+  weeks.forEach((week) => {
+    const list = document.createElement("li");
+    const anchor = document.createElement("a");
+    list.textContent = `${week.lesson}: `;
+
+    anchor.textContent = `${week.lesson.title}`;
+    anchor.setAttribute("href", week.lesson.url);
+
+    list.appendChild(anchor);
+    sessions.appendChild(list);
+  });
+};
+
 getLinks();
