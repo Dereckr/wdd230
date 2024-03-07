@@ -12,14 +12,19 @@ const sessions = document.querySelector(".sessions");
 const displayLinks = (weeks) => {
   weeks.forEach((week) => {
     const list = document.createElement("li");
-    const anchor = document.createElement("a");
+
     list.textContent = `${week.lesson}: `;
 
-    anchor.textContent = `${week.lesson.title}`;
-    anchor.setAttribute("href", week.lesson.url);
+    week.links.forEach((link) => {
+      const anchor = document.createElement("a");
+      anchor.textContent = `_ ${link.title}_`;
+      anchor.setAttribute("href", link.url);
+      list.appendChild(anchor);
+    });
 
-    list.appendChild(anchor);
     sessions.appendChild(list);
+    /*
+     */
   });
 };
 
