@@ -1,7 +1,7 @@
 {
     "lessons":[
         {
-        "lesson":"01",
+        "lesson":"Week 01",
         "links":[
             {
                 "url": "https://dereckr.github.io/wdd230/lesson01/holygrail.html",
@@ -10,7 +10,7 @@
         ]
     },
     {
-        "lesson":"02",
+        "lesson":"Week 02",
         "links":[
             {
                 "url": "lesson02/media-query.html",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "lesson":"03",
+        "lesson":"Week 03",
         "links":[
             {
                 "url": "https://codepen.io/Dereckromos/pen/zYbdBBR",
@@ -40,7 +40,7 @@
         ]
     },
     {
-        "lesson":"04",
+        "lesson":"Week 04",
         "links":[
             {
                 "url": "https://codepen.io/Dereckromos/pen/bGZayLa",
@@ -49,7 +49,7 @@
         ]
     },
     {
-        "lesson":"05",
+        "lesson":"Week 05",
         "links":[
             {
                 "url": "https://dereckr.github.io/wdd230/lesson05/bom.html",
@@ -58,7 +58,7 @@
         ]
     },
     {
-        "lesson":"06",
+        "lesson":"Week 06",
         "links":[
             {
                 "url": "lesson05/images/landscape.webp",
@@ -71,7 +71,7 @@
         ]
     },
     {
-        "lesson":"07",
+        "lesson":"Week 07",
         "links":[
             {
                 "url": "lesson07/lazyload.html",
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "lesson":"08",
+        "lesson":"Week 08",
         "links":[
             {
                 "url": "lesson08/tablebuild.html",
@@ -101,7 +101,7 @@
         ]
     },
     {
-        "lesson":"09",
+        "lesson":"Week 09",
         "links":[
             {
                 "url": "lesson09/new-ward-members.json",
@@ -114,7 +114,7 @@
         ]
     },
     {
-        "lesson":"10",
+        "lesson":"Week 10",
         "links":[
 
         ]
