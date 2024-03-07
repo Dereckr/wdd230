@@ -89,7 +89,12 @@ ul {
 }
 
 .card li{
-    padding-bottom: 7px;
+    padding: 5px 0;
+    text-align: left;
+}
+
+.sessions{
+    padding: 5px 5% 0 5%;
 }
 
 p {
