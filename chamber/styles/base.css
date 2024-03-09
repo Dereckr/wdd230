@@ -271,14 +271,13 @@ form input:required:valid{
 
 article{
     padding: 10px 0;
+    grid-column: 1/4;
 }
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     grid-gap:4px;
     align-items: center;
-    grid-column: 1/4;
-    
 }
 .grid img{
     height:75px;
@@ -286,9 +285,6 @@ article{
 }
 
 .list{
-
-    grid-column: 1/4;
-    padding:15px 0;
     font-size: 0.8rem;
 }
 
