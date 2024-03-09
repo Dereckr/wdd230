@@ -262,8 +262,8 @@ form input:required:valid{
 .grid section{
     border: 1px solid gray;
     padding: 0.5rem;
-    background-color:#F75C03;
-    color: whitesmoke;
+    background-color:lightgray;
+    
 }
 
 .grid {
@@ -305,7 +305,7 @@ form input:required:valid{
 }
 
 .list section:nth-child(even) {
-	background-color:#F75C03
+	background-color:lightgray
 }
 
 
