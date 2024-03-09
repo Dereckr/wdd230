@@ -66,8 +66,14 @@ form{
     grid-column: 2/4;
 }
 
-.list{
+.grid{
     grid-column: 2/4;
+}
+.list{
+    grid-column: 1/5;
+}
+.list{
+    padding: 10px;
 }
 
 }

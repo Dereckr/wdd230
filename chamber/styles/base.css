@@ -4,7 +4,9 @@
     --invalidColor: red;
 }
 
-
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: "Fira Sans", Helvetica, sans-serif;
 
@@ -23,7 +25,7 @@ main{
     grid-column: 2/3;
 }
 
-section {   
+.sidebar section {   
     grid-column: 2/3;
     margin: 10px 0;
 }
@@ -263,12 +265,14 @@ form input:required:valid{
     border: 1px solid gray;
     padding: 0.5rem;
     background-color:lightgray;
+    text-align: center;
     
 }
 
+
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     grid-gap:4px;
     align-items: center;
     grid-column: 1/3;
@@ -280,15 +284,14 @@ form input:required:valid{
 }
 
 .list{
-    display: flex;
-    flex-direction: column;
-    grid-column: 2/3;
+
+    grid-column: 1/3;
     padding:15px 0;
 }
 
-.list section{
+.list section {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1.5fr ;
     margin:0;
     padding: 0.25rem;
     border: 1px solid #333;
