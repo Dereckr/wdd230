@@ -16,7 +16,7 @@ const displayProphets = (prophets) => {
     const birthDate = document.createElement("p");
     const birthPlace = document.createElement("p");
     const portrait = document.createElement("img");
-    fullName.textContent = `${prophet.name}`;
+    fullName.textContent = `${prophet.name} ${prophet.lastname}`;
     birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
     birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
     portrait.setAttribute("src", prophet.imageurl);
