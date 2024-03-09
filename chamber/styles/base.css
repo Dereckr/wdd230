@@ -292,6 +292,7 @@ form input:required:valid{
     margin:0;
     padding: 0.25rem;
     border: 1px solid #333;
+    border-collapse: collapse;
 }
 
 .list section > * {
