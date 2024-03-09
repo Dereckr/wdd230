@@ -5,7 +5,7 @@
             "address":"Av. 16 de Julio esq. Calle Reyes Ortiz y C. Bravo",
             "phoneNumber":"22176300",
             "website":"https://www.ypfb.gob.bo/es/",
-            "image":"images/directory/ypfb.jpeg",
+            "image":"images/directory/ypfb.webp",
             "membershipLevel":"Gold",
             "publicOrPrivate":"public"
         },
@@ -23,7 +23,7 @@
             "address":"Street Lucas Jaimes N 1959. Miraflores",
             "phoneNumber":"22176600",
             "website":"https://www.inti.com.bo/",
-            "image":"images/directory/inti-logo-footer.webp",
+            "image":"images/directory/inti-logo.webp",
             "membershipLevel":"Silver",
             "publicOrPrivate":"private"
         },
