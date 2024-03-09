@@ -20,7 +20,10 @@ const displayProphets = (prophets) => {
     birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
     birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
     portrait.setAttribute("src", prophet.imageurl);
-    portrait.setAttribute("alt", `Portrait of ${prophet.name}`);
+    portrait.setAttribute(
+      "alt",
+      `Portrait of ${prophet.name} ${prophet.lastname}`
+    );
     portrait.setAttribute("loading", "lazy");
     portrait.setAttribute("width", "340");
     portrait.setAttribute("height", "440");
