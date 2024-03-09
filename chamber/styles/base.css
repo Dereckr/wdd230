@@ -275,7 +275,7 @@ article{
 
 article h2{
     text-align: center;
-    grid-column:span
+  
 }
 .grid {
     display: grid;
