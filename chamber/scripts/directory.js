@@ -16,7 +16,18 @@ const displayMembers = (members) => {
     const phone = document.createElement("p");
     const anchor = document.createElement("a");
     image.setAttribute("href", member.url);
-    image.setAttribute("alt",`${company.name} logo` );
+    image.setAttribute("alt", `${company.name} logo`);
     address.textContent = member.address;
+    phone.textContent = member.phoneNumber;
+    anchor.textContent = member.website;
+    anchor.setAttribute("href", member.website);
+
+    section.appendChild(image);
+    section.appendChild(address);
+    section.appendChild(phone);
+    section.appendChild(anchor);
+    article.appendChild(section);
   });
 };
+
+getMembersData(url);
