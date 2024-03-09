@@ -269,7 +269,9 @@ form input:required:valid{
     
 }
 
-
+article{
+    padding: 10px 0;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
