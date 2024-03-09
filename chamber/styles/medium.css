@@ -62,5 +62,12 @@ form{
 .membership-features{
     grid-column: 3/4;
 }
+.displayMembers{
+    grid-column: 2/4;
+}
+
+.list{
+    grid-column: 2/4;
+}
 
 }

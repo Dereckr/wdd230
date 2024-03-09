@@ -5,7 +5,7 @@
             "address":"Av. 16 de Julio esq. Calle Reyes Ortiz y C. Bravo",
             "phoneNumber":"22176300",
             "website":"https://www.ypfb.gob.bo/es/",
-            "image":"images/directory/YPFB",
+            "image":"images/directory/ypfb.jpeg",
             "membershipLevel":"Gold",
             "publicOrPrivate":"public"
         },
@@ -14,7 +14,7 @@
             "address":"Av. 14 de Septiembre 6321-6189",
             "phoneNumber":"22916962",
             "website":"https://clubbolivar.com/",
-            "image":"images/directory/ypfb",
+            "image":"images/directory/club-bolivar-logo.webp",
             "membershipLevel":"Gold",
             "publicOrPrivate":"public"
         },
@@ -23,7 +23,7 @@
             "address":"Street Lucas Jaimes N 1959. Miraflores",
             "phoneNumber":"22176600",
             "website":"https://www.inti.com.bo/",
-            "image":"images/directory/",
+            "image":"images/directory/inti-logo-footer.webp",
             "membershipLevel":"Silver",
             "publicOrPrivate":"private"
         },
@@ -31,8 +31,8 @@
             "name":"TechLogic",
             "address":"Street 17 de Obrajes, Mario Mercado Building 4th floor",
             "phoneNumber":"2275139",
-            "website":"https://clubbolivar.com/",
-            "image":"images/directory/techlogic",
+            "website":"https://techlogic-group.com/",
+            "image":"images/directory/techlogic.webp",
             "membershipLevel":"Bronze",
             "publicOrPrivate":"private"
         },
@@ -41,7 +41,7 @@
             "address":"Km 7 Carretera Oruro Zona Rosas Pampa Industrial",
             "phoneNumber":"22850626",
             "website":"https://www.torremolinos.com.bo/",
-            "image":"images/directory/torremolinos",
+            "image":"images/directory/torremolinos.webp",
             "membershipLevel":"Silver",
             "publicOrPrivate":"private"
         },
@@ -50,7 +50,7 @@
             "address":"Av. Julio Patiño #50 esq. Calle 18 de calacoto",
             "phoneNumber":"800104848",
             "website":"https://pilandina.com.bo/",
-            "image":"images/directory/pil",
+            "image":"images/directory/logo-pil.svg",
             "membershipLevel":"Gold",
             "publicOrPrivate":"private"
         },
@@ -59,7 +59,7 @@
             "address":"Av. 20 de Octubre Nro. 2685 ",
             "phoneNumber":"22434007",
             "website":"https://www.anh.gob.bo/w2019/",
-            "image":"images/directory/torremolinos",
+            "image":"images/directory/anh.webp",
             "membershipLevel":"Silver",
             "publicOrPrivate":"Public"
         }

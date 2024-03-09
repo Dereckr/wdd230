@@ -247,3 +247,67 @@ form input:required:valid{
     max-width: 400px;
 
 }
+
+.displayMembers button{
+    padding: 1rem; 
+}
+
+.displayMembers{
+    margin: 0 auto;
+    border: 1px solid gray;
+    text-align: center;
+    grid-column: 2/3;
+}
+
+.grid section{
+    border: 1px solid gray;
+    padding: 0.5rem;
+    background-color:#F75C03;
+    color: whitesmoke;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    grid-gap:4px;
+    align-items: center;
+    grid-column: 1/3;
+    
+}
+.grid img{
+    height:75px;
+    width:auto;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+    padding:15px 0;
+}
+
+.list section{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin:0;
+    padding: 0.25rem;
+    border: 1px solid #333;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+
+.list section img{
+    display: none;
+
+}
+
+.list section:nth-child(even) {
+	background-color:#F75C03
+}
+
+
+
+
