@@ -4,64 +4,64 @@
             "name":"YPFB",
             "address":"Av. 16 de Julio esq. Calle Reyes Ortiz y C. Bravo",
             "phoneNumber":"22176300",
-            "Website":"https://www.ypfb.gob.bo/es/",
+            "website":"https://www.ypfb.gob.bo/es/",
             "image":"images/directory/YPFB",
             "membershipLevel":"Gold",
-            "PublicOrPrivate":"public"
+            "publicOrPrivate":"public"
         },
         {
             "name":"Club Bolivar",
             "address":"Av. 14 de Septiembre 6321-6189",
             "phoneNumber":"22916962",
-            "Website":"https://clubbolivar.com/",
+            "website":"https://clubbolivar.com/",
             "image":"images/directory/ypfb",
             "membershipLevel":"Gold",
-            "PublicOrPrivate":"public"
+            "publicOrPrivate":"public"
         },
         {
             "name":"Inti",
             "address":"Street Lucas Jaimes N 1959. Miraflores",
             "phoneNumber":"22176600",
-            "Website":"https://www.inti.com.bo/",
+            "website":"https://www.inti.com.bo/",
             "image":"images/directory/",
             "membershipLevel":"Silver",
-            "PublicOrPrivate":"private"
+            "publicOrPrivate":"private"
         },
         {
             "name":"TechLogic",
             "address":"Street 17 de Obrajes, Mario Mercado Building 4th floor",
             "phoneNumber":"2275139",
-            "Website":"https://clubbolivar.com/",
+            "website":"https://clubbolivar.com/",
             "image":"images/directory/techlogic",
             "membershipLevel":"Bronze",
-            "PublicOrPrivate":"private"
+            "publicOrPrivate":"private"
         },
         {
             "name":"Torremolinos",
             "address":"Km 7 Carretera Oruro Zona Rosas Pampa Industrial",
             "phoneNumber":"22850626",
-            "Website":"https://www.torremolinos.com.bo/",
+            "website":"https://www.torremolinos.com.bo/",
             "image":"images/directory/torremolinos",
             "membershipLevel":"Silver",
-            "PublicOrPrivate":"private"
+            "publicOrPrivate":"private"
         },
         {
             "name":"PIL",
             "address":"Av. Julio Patiño #50 esq. Calle 18 de calacoto",
             "phoneNumber":"800104848",
-            "Website":"https://pilandina.com.bo/",
+            "website":"https://pilandina.com.bo/",
             "image":"images/directory/pil",
             "membershipLevel":"Gold",
-            "PublicOrPrivate":"private"
+            "publicOrPrivate":"private"
         },
         {
             "name":"Agencia Nacional de Hidrocarburos",
             "address":"Av. 20 de Octubre Nro. 2685 ",
             "phoneNumber":"22434007",
-            "Website":"https://www.anh.gob.bo/w2019/",
+            "website":"https://www.anh.gob.bo/w2019/",
             "image":"images/directory/torremolinos",
             "membershipLevel":"Silver",
-            "PublicOrPrivate":"Public"
+            "publicOrPrivate":"Public"
         }
     ]
 }
