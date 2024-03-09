@@ -272,6 +272,11 @@ article{
     padding: 10px 0;
     grid-column: 1/4;
 }
+
+article h2{
+    text-align: center;
+    grid-column:span
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
