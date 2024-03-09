@@ -29,7 +29,7 @@
         },
         {
             "name":"TechLogic",
-            "address":"Obrajes Street 17, Mario Mercado Bldg. 4th floor",
+            "address":"Obrajes 17 St., Mario Mercado Bldg. 4th floor",
             "phoneNumber":"2275139",
             "website":"https://techlogic-group.com/",
             "image":"images/directory/techlogic.webp",
@@ -38,7 +38,7 @@
         },
         {
             "name":"Torremolinos",
-            "address":"Km 7 Carretera Oruro Zona Rosas Pampa Industrial",
+            "address":"Km 7 Oruro Hwy. Zona Rosas Pampa Industrial",
             "phoneNumber":"22850626",
             "website":"https://www.torremolinos.com.bo/",
             "image":"images/directory/torremolinos.webp",
@@ -47,7 +47,7 @@
         },
         {
             "name":"PIL",
-            "address":"Av. Julio Patiño #50 esq. Calle 18 de calacoto",
+            "address":"Av. Julio Patiño #50 esq. Calacoto St. 18",
             "phoneNumber":"800104848",
             "website":"https://pilandina.com.bo/",
             "image":"images/directory/logo-pil.svg",
