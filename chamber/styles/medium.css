@@ -71,9 +71,9 @@ form{
 }
 .list{
     grid-column: 1/5;
-}
-.list{
+    font-size: 1rem;
     padding: 10px;
 }
+
 
 }

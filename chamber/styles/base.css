@@ -275,7 +275,7 @@ form input:required:valid{
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     grid-gap:4px;
     align-items: center;
-    grid-column: 1/3;
+    grid-column: 1/4;
     
 }
 .grid img{
@@ -285,8 +285,9 @@ form input:required:valid{
 
 .list{
 
-    grid-column: 1/3;
+    grid-column: 1/4;
     padding:15px 0;
+    font-size: 0.8rem;
 }
 
 .list section {
