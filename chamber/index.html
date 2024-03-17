@@ -28,6 +28,10 @@
             <a href="directory.html">Directory</a>
             <a href="join.html">Join</a>
         </nav>
+        <div id="banner">
+            <p><strong>Please join us in our Meeting. Wednesday at 7:00pm</strong></p>
+            <button class="bannerclose" type="button">✖</button>
+        </div>
     </header>
     <div id="mode">🌛</div>
     <div id="hero">
@@ -52,15 +56,17 @@
         <section class="weather borders">
             <h2>Weather</h2>
             <p>La Paz, Bolivia</p>
-            <p>The current temperature is <span id="temp"></span> </p>
+            <p>The current temperature is <span id="temp"></span> &deg;C</p>
             <figure>
                 <img id="weather-icon" src="" alt="">
                 <figcaption></figcaption>
             </figure>
-
-            <p ><span class="temperature">15</span> °F</p>
-            <p ><span class="windspeed">5</span> mph</p>
-            <p >Wind Chill : <span class="windchill"></span> </p>
+            <p>The temperature for tomorrow is <span id="temptomorrow"></span> </p>
+            <p>The temperature for the day after tomorrow is <span id="tempaftertomorrow"></span> </p>
+            <p>The temperature for 2 days from now is <span id="temptwodays"></span> </p>
+            <p class="tempc" ><span class="temperature">15</span> °F</p>
+            <p >Wind Speed: <span class="windspeed">5</span> mph</p>
+            <p >Wind Chill: <span class="windchill"></span> </p>
             
  
         </section>
@@ -84,6 +90,7 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
     
    
 </body>

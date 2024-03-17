@@ -314,6 +314,15 @@ article h2{
 	background-color:lightgray
 }
 
+.tempc{
+    display: none;
+}
+
+#banner{
+    width: 100%;
+    border: 3px solid whitesmoke;
+    font-size: 1.5rem;
+}
 
 
 

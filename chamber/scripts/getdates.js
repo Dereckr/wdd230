@@ -10,6 +10,8 @@ const optionsModified = {day:"numeric", month:"numeric", year:"numeric", hour:"n
 
 document.getElementById("lastmodified").textContent = new Date(document.lastModified).toLocaleDateString("en-US", optionsModified);
 
+
+
 const hamButton = document.querySelector("#options");
 const pages = document.querySelector(".pages");
 
