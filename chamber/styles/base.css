@@ -151,8 +151,8 @@ footer{
 }
 
 .logo {
-    width: 60px;
-    padding-left: 5rem;
+    width: 80px;
+    padding-left: 3rem;
 }
 
 h1 {
@@ -161,6 +161,9 @@ h1 {
     justify-content: center;   
 }
 
+#join {
+    padding: 20px;
+}
 #join a{
     text-decoration: none;
     color: whitesmoke;
