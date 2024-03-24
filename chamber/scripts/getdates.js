@@ -45,10 +45,10 @@ modeButton.addEventListener("click",() => {
 
 // Input date
 
-let dateForm = document.querySelector("#date");
+// let dateForm = document.querySelector("#date");
 
-const DateToday = Date.now();
+// const DateToday = Date.now();
 
-dateForm.setAttribute("value",DateToday);
+// dateForm.setAttribute("value",DateToday);
 
-localStorage.setItem("visitday", DateToday);
+// localStorage.setItem("visitday", DateToday);
