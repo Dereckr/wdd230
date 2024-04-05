@@ -1,5 +1,7 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
     .tabs{
         flex-direction: row;
+        justify-content: space-around;
+        font-size: 1.5rem;
     }
 }
