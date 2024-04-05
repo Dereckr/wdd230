@@ -3,26 +3,23 @@ body{
 }
 
 *{
-    margin: 0;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 h1, h2, h3 {
     font-family: "Trade Winds", "Times New Roman", system-ui;
-    margin: 0;
     
 }
 
 header{
     background-color: beige;
-
-    
 }
 
 
-
 .logo{
-    width: 100px;
-    padding: 1rem;
+    width: 80px;
+    padding: 0px 1rem;
 }
 
 h1{
@@ -33,7 +30,5 @@ h1{
 .tabs{
     display: flex;
     flex-direction: column;
-    list-style: none;
-    
-    
+    list-style: none; 
 }
