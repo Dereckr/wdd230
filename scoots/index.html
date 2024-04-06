@@ -32,8 +32,8 @@
     <div id="hero">
         <div id="hero-box">
             <picture>
-                <source srcset="images/chamber/la-paz-small.webp" media="(max-width: 400px)">
-                <source srcset="images/chamber/la-paz-medium.webp" media="(max-width: 960px)">
+                <source srcset="images/hero-image-small-400.webp" media="(max-width: 400px)">
+                <source srcset="images/hero-image-medium-960.webp" media="(max-width: 960px)">
                 <img src="images/hero-image-large.webp" alt="Jeep" width="1200" height="1000">
             </picture>
         </div>
@@ -43,7 +43,54 @@
     </div>
     
     <main>
+        <section>
+            <h2>Rental Information</h2>
+            <ul>
+                <li>Honda Motor<strong>Scooters</strong>
+                    <ul>
+                        <li>Honda Metropolitan(49cc) - 1 person</li>
+                        <li>Honda Dio (110cc) - 2 people</li>
+                        <li>Honda PCX150 (149cc) - 2 people</li>
+                    </ul>
+                </li>
+                <li>Side-by-Side <strong>ATVs</strong>
+                    <ul>
+                        <li>Honda Pioneer 1000 - 4 people</li>
+                    </ul>
+                </li>
+                <li><strong>Jeeps</strong>
+                    <ul>
+                        <li>Jeep Wrangler - 4 doors manual with A/C - 5 people</li>
+                        <li>Jeep Wrangler - 2 doors - open air - manual - 4 people </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Weather Information</h2>
+            <p>The current temperature is <span id="temp"></span> &deg;C</p>
+            <figure>
+                <img id="weather-icon" src="a" alt="b">
+                <figcaption></figcaption>
+            </figure>
+            <p>The current humidity is <span id="humidity"></span>%</p>
+            <p>Tomorrow Temperature at 3:00 pm is <span id="tomorrowtemp"></span> </p>
+        </section>
 
     </main>
+    <footer>
+        <p>Scooters © 2024 - Dereck Romero<br></p>
+        <div class="social">
+            <a href="https://facebook.com/" target="_blank">
+                <img src="images/facebook.webp" alt="facebook logo">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="images/twitter.webp" alt="twitter logo">
+            </a>
+            <a href="https://instagram.com/" target="_blank">
+                <img src="images/instagram.webp" alt="instagram logo">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
