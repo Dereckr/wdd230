@@ -46,21 +46,25 @@ h2{
     flex-direction: column;
     list-style: none;
     padding: 10px;
-    
+    background-color: #c5e99b;
 }
 
 a{
     text-decoration: none;
 }
-.tabs a:link{
+a:link{
     color: black;
-    text-decoration: none; 
 }
 
-.tabs a:link{
-    color: black;
-    
+a:visited{
+    color: rgb(126, 37, 101);
 }
+
+a:hover{
+    color: #5465ff;
+}
+
+
 
 main{
     display: grid;
@@ -86,6 +90,11 @@ main{
 
 footer{
     background-color: #6DA34D;
+    font-size: 1.5rem;
+}
+
+footer img{
+    margin: 0 20px;
 }
 
 
@@ -93,11 +102,17 @@ footer{
     position: absolute;
     top:80%;
     left: 50%;
-    background-color: #6DA34D;
+    background-color: #c5e99b;
     color: whitesmoke;
     font-size: 1rem;
     transform: translate(-50%, -50%);
-    padding: 10px;
-    
+    padding: 15px;
+    border: 2px solid black;
 }
+
+#banner{
+    font-size: 2rem;
+    border: 3px solid black;
+}
+
 
