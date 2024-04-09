@@ -135,5 +135,50 @@ th, td{
     color: whitesmoke;
 }
 
+form label{
+    display: block;
+    padding-top: 1rem;
+}
+
+form input, form textarea, form select {
+    display: block;
+    width: 90%;
+    max-width:500px;
+    justify-content: center;
+    border:solid 1px black;
+    border-radius: 6px;
+    padding:.75rem;
+}
+
+form fieldset{
+    margin: 2rem 0;
+    border-radius: 6px;
+    padding : .5rem 2%;
+    width: 100%;
+    max-width: 550px;
+}
+
+li{
+    padding-top: 10px;
+}
+
+.reserv{
+    background-color: #6DA34D;
+    padding: 1rem;
+    margin: 0.5rem 1rem ;
+    border: none;
+    border-radius: 1rem;
+    width: 96%;
+    max-width: 400px;
+}
+
+
+
+form{
+    padding-left: 50px;
+}
+
+
+
 
 
