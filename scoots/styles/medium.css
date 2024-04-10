@@ -5,9 +5,7 @@
         font-size: 1.5rem;
     }
 
-    main{
-        grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
-    }
+
 
     #reservation{
         font-size: 1.8rem;

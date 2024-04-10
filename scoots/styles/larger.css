@@ -8,4 +8,29 @@
         font-size: 1.4rem;      
     }
 
+    #contact p{
+        font-size: 1.2rem;
+        padding: 10px;
+        
+    }
+
+    #contact{
+        grid-column: 1/3;
+    }
+
+
+    #fcontact{
+        grid-column: 3/5;
+    }
+
+    iframe{
+        grid-column: 1/3;
+    }
+
+    #iframer{
+        grid-column: 3/5;
+    }
+
+
+
 }

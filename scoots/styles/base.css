@@ -69,6 +69,7 @@ a:hover{
 main{
     display: grid;
     justify-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
 }
 
 .home{
@@ -120,6 +121,7 @@ table{
     border: 1px solid black;
     border-collapse: collapse;
     background-color: #FCFFEB;
+    
 }
 
 th, td{
@@ -173,11 +175,16 @@ li{
 }
 
 
-
 form{
     padding-left: 50px;
 }
 
+iframe {
+    display: block;
+    width: 500px;
+    padding: 20px;
+    margin:20px;
+}
 
 
 
