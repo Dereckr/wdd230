@@ -184,6 +184,7 @@ iframe {
     width: 500px;
     padding: 20px;
     margin:20px;
+    width: 100%;
 }
 
 .contactus{
@@ -192,4 +193,8 @@ iframe {
     background-color: #6DA34D;
 }
 
+#contact{
+    padding:0px 10px;
+    width: 100%;
+}
 
